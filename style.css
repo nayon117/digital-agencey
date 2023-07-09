@@ -2,6 +2,7 @@
     margin: 0px;
     padding: 0px;
 }
+/* nav styles  */
 .nav-container{
     display: flex;
     justify-content: space-around;
@@ -16,4 +17,40 @@
     font-size: 18px;
     color: white;
 
+}
+/* banner-container styles  */
+.banner-container{
+    height: 100vh;
+    background-image: url("./asset/image/background.jpg"),linear-gradient(rgba(0, 0, 0,0.2),rgba(0, 0, 0,0.4));
+    background-blend-mode: overlay;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+.primary{
+    color: rgb(227, 25, 25);
+}
+.title{
+    color: white;
+    font-size: 55px;
+    font-weight: bold;
+}
+.description{
+    padding: 10px;
+    width: 50%;
+    margin: auto;
+    color: white;
+}
+.btn{
+    padding: 12px 20px;
+    border: none;
+    border-radius: 3px;
+    margin-right: 10px;
+}
+.bg-primary{
+    background-color: rgb(220, 24, 24);
+    color: white;
 }
