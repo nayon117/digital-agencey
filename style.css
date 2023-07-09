@@ -125,7 +125,7 @@
   width: 80%;
   margin: auto;
   padding: 20px;
-  background-color: red;
+  background-color: rgb(198, 33, 33);
   border-radius: 10px;
   margin-top: -30px;
 }
@@ -161,4 +161,34 @@
 }
 .blog-img {
   width: 100%;
+}
+/* footer styles  */
+
+.footer-part{
+    width: 100%;
+    height: 70vh;
+    background-image: url(./asset/image/footer-bg.png),linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0.9));
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+    color: white;
+    line-height: 1.8em;
+    margin-top: 50px;
+}
+.footer-container{
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+}
+.footer-information{
+    width: 150px;
+    padding: 30px;
+    margin-bottom: 20px;
+}
+.footer-hr{
+    width: 400px;
+     margin: 0px auto;
+}
+.footer-p{
+    text-align: center;
+     margin-top: 5px;
 }
